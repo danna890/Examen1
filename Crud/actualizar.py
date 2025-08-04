@@ -1,4 +1,5 @@
-from modulos import mostrar_menu_actualizar, mostrar_menu_principal
+
+from modulos.modulos_consola import mostrar_menu_actualizar, mostrar_menu_principal
 from data.almacenamiento import RUTAS
 
 

@@ -1,4 +1,4 @@
-from modulos import mostrar_menu_crear, mostrar_menu_principal
+from modulos.modulos_consola import mostrar_menu_crear, mostrar_menu_principal
 from data.almacenamiento import RUTAS
 
 def crear():
@@ -10,3 +10,4 @@ def crear():
     except Exception as e:
         print(f"Error al agregar el ingrediente: {e}")
     pass
+

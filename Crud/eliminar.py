@@ -1,4 +1,4 @@
-from modulos import mostrar_menu_eliminar, mostrar_menu_principal
+from modulos.modulos_consola import mostrar_menu_eliminar, mostrar_menu_principal
 from data.almacenamiento import RUTAS
 
 def eliminar():
