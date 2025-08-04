@@ -1,3 +1,12 @@
+import os
+from data.almacenamiento import RUTAS
+from modulos.modulos_consola import (    mostrar_menu_principal,
+    mostrar_menu_crear,
+    mostrar_menu_eliminar,
+    mostrar_menu_leer,
+    mostrar_menu_actualizar
+)
+
 def ingredientes_stock_menor_400(ingredientes):
     return [i for i in ingredientes if i['stock'] < 400]
 
